@@ -65,3 +65,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ## Tech
 
 - [state](https://nuxt.com/docs/getting-started/state-management#using-third-party-libraries)
+- [xstate](https://nuxt.com/modules/xstate)

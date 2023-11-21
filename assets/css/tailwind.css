@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.svg-h-auto svg {
+  height: auto !important;
+}
+
+/* content classes */
+@layer components {
+  .unn-content-tips p {
+    @apply !text-[#A9AEB8] dark:!text-[#727583];
+  }
+}
+
+:root {
+  --bg-color: 'none';
+}
+
+body {
+  padding:
+    constant(safe-area-inset-top)
+    constant(safe-area-inset-right)
+    constant(safe-area-inset-bottom)
+    constant(safe-area-inset-left); /* 兼容 iOS < 11.2 */
+  padding:
+    env(safe-area-inset-top)
+    env(safe-area-inset-right)
+    env(safe-area-inset-bottom)
+    env(safe-area-inset-left); /* 兼容 iOS >= 11.2 */
+  background-color: var(--bg-color);
+}

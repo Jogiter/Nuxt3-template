@@ -1,0 +1,54 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "build:dev": "nuxt generate --dotenv .env",
+    "build:prd": "nuxt generate --dotenv .env.prod",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.7.2",
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/i18n": "^8.0.0-beta.12",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18",
+    "@vueuse/core": "^10.6.0",
+    "@vueuse/nuxt": "^10.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "nuxt": "^3.8.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "3.0.0",
+    "tailwind-scrollbar": "^3.0.4",
+    "vuetify": "^3.4.1",
+    "vuetify-nuxt-module": "^0.6.7"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.3.67",
+    "@pinia/nuxt": "^0.4.11",
+    "@types/ua-parser-js": "^0.7.36",
+    "animate.css": "^4.1.1",
+    "axios": "^1.6.1",
+    "is-mobile": "^4.0.0",
+    "nanoid": "^5.0.3",
+    "pinia": "^2.1.4",
+    "swiper": "^10.3.1",
+    "tailwind-animatecss": "^1.0.0",
+    "ua-parser-js": "^1.0.35"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

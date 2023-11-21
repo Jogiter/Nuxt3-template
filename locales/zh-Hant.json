@@ -1,0 +1,55 @@
+{
+  "home": {
+    "gameTag": "示範",
+
+    "apiTitle": "開發者快速存取",
+    "apiDesc": "只需幾行程式碼即可輕鬆整合遊戲。開發人員可以使用我們的 API 更快地交付並專注於重要的事情",
+    "apiButton": "API 文件",
+
+    "processTitle": "VDDGAMES對接流程",
+    "processStep1": "業務對接",
+    "processStep2": "API對接",
+    "processStep3": "驗證測試",
+    "processStep4": "線上開始",
+    "processButton": "檢視文件"
+  },
+  "game": {
+    "aviator": "叫我飞行家",
+    "hilo": "比大小",
+    "mines": "星雷棋布",
+    "plinko": "普林可球戏",
+    "hotline": "热线猜猜猜",
+    "goal": "进球破门",
+    "miniRoulette": "迷你小轮盘",
+    "keno": "基诺",
+    "dice": "一骰决胜负",
+    "roulette": "轮盘转转转",
+    "scratch": "刮刮乐"
+  },
+  "common": {
+    "close": "关闭"
+  },
+  "contact": {
+    "hello": "您好",
+    "title": "联系我们",
+    "desc": "收到您的申请后，我们将第一时间联系您",
+    "form": {
+      "label1": "名字",
+      "placeholder1": "输入您的姓名",
+      "label2": "电子邮箱",
+      "placeholder2": "输入您的邮箱",
+      "label3": "留言",
+      "placeholder3": "留下您想说的话",
+      "submit": "发送"
+    },
+    "other": {
+      "title": "其他联系方式",
+      "telegram": "telegram客服",
+      "telegramDesc": "t.me/CS_9194",
+      "email": "电子邮箱客服",
+      "emailDesc": "vddcs9194{'@'}gmail.com"
+    },
+    "successMessage": "提交成功",
+    "errorMessage": "提交失败"
+  }
+}

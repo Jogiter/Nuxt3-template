@@ -57,5 +57,6 @@ export default <Partial<Config>>{
     require('tailwind-animatecss'),
     require('tailwind-scrollbar'),
     require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ],
 }
